@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #2a2d69;
+  color: #c9b07a;
+}
+
+/* Header */
+.header {
+  background-color: rgb(30, 26, 77);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+.explore-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e6f9ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Why Visit */
+.why-visit {
+  background-color: rgb(30, 26, 77);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.why-visit h2 {
+  color: #f1f5ff;
+  margin-bottom: 15px;
+}
+
+/* Explore Images */
+.explore-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.image-gallery img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Table */
+.places-section {
+  padding: 20px 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #e8fbe8;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #c4c0c0;
+}
+
+.highlight {
+  background-color: #ff9933;
+  color: white;
+}
+
+/* Contact */
+.contact-section {
+  padding: 20px 30px;
+  background-color: #0b0b34;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: rgb(30, 26, 77);
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
